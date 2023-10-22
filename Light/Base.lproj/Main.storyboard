@@ -17,9 +17,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5QB-Wf-bG3">
-                                <rect key="frame" x="159" y="408.66666666666669" width="75" height="35"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wuD-sR-eJ4"/>
                                 </connections>
@@ -28,13 +28,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="5QB-Wf-bG3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9XL-0B-E4s"/>
-                            <constraint firstItem="5QB-Wf-bG3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aMy-lB-fdg"/>
+                            <constraint firstItem="5QB-Wf-bG3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5F1-BM-tDR"/>
+                            <constraint firstItem="5QB-Wf-bG3" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="I6H-LY-oEW"/>
+                            <constraint firstItem="5QB-Wf-bG3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PvV-kF-rk9"/>
+                            <constraint firstItem="5QB-Wf-bG3" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="lni-wC-bHO"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="lightButton" destination="5QB-Wf-bG3" id="6HM-sk-U1q"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
