@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var lightOn = true
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -16,6 +18,12 @@ class ViewController: UIViewController {
 
 
     @IBAction func buttonPressed(_ sender: UIButton) {
+        lightOn.toggle()
+        if lightOn {
+            view.backgroundColor = .white
+        } else {
+            view.backgroundColor = .black
+        }
     }
 }
 
