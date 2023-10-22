@@ -18,11 +18,7 @@ class ViewController: UIViewController {
 
 
     fileprivate func updateUI() {
-        if lightOn {
-            view.backgroundColor = .white
-        } else {
-            view.backgroundColor = .black
-        }
+        view.backgroundColor = lightOn ? .white : .black
     }
     
     @IBAction func buttonPressed(_ sender: UIButton) {
